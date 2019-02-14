@@ -66,4 +66,9 @@ Below are some of the 100+ projects I've created
 
 ##### EXTERNAL LINKS
 
-[](https://twitter.com/therumbler)[](https://instagram.com/therumbler)[](https://www.snapchat.com/add/benjaminrumble)[](https://github.com/therumbler)[](https://linkedin.com/in/benjaminrumble)[](https://open.spotify.com/user/therumbler)
+<a target="_blank" href="https://twitter.com/therumbler"><i class="fab fa-twitter"></i></a>
+<a target="_blank" href="https://instagram.com/therumbler"><i class="fab fa-instagram"></i></a>
+<a target="_blank" href="https://www.snapchat.com/add/benjaminrumble"><i class="fab fa-snapchat"></i></a>
+<a target="_blank" href="https://github.com/therumbler"><i class="fab fa-github"></i></a>
+<a target="_blank" href="https://linkedin.com/in/benjaminrumble"><i class="fab fa-linkedin"></i></a>
+<a target="_blank" href="https://open.spotify.com/user/therumbler"><i class="fab fa-spotify"></i></a>
