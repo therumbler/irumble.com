@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <!-- Gradient Background Sunset Sky -->
+  <defs>
+    <linearGradient id="sunsetGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4ECDC4;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#1A535C;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Sunset Sky -->
+  <rect width="1000" height="1000" fill="url(#sunsetGradient)"/>
+
+  <!-- City Silhouette -->
+  <path d="M0 600 L250 400 L250 200 Q300 180 350 200 L350 500 L450 450 L450 300 Q500 280 550 300 L550 600 L700 500 L700 250 Q750 230 800 250 L800 700 L1000 600 L1000 1000 L0 1000 Z" 
+        fill="rgba(0,0,0,0.7)"/>
+
+  <!-- Subtle City Lights -->
+  <g opacity="0.6">
+    <rect x="50" y="250" width="10" height="20" fill="rgba(255,255,255,0.8)"/>
+    <rect x="150" y="350" width="10" height="20" fill="rgba(255,255,255,0.8)"/>
+    <rect x="400" y="300" width="10" height="20" fill="rgba(255,255,255,0.8)"/>
+    <rect x="600" y="400" width="10" height="20" fill="rgba(255,255,255,0.8)"/>
+    <rect x="850" y="350" width="10" height="20" fill="rgba(255,255,255,0.8)"/>
+  </g>
+
+  <!-- Stylized DJ Text -->
+  <text x="500" y="900" 
+        font-family="Arial, sans-serif" 
+        font-size="60" 
+        font-weight="bold" 
+        text-anchor="middle" 
+        fill="white">
+    
+        LIQUID DRUM &amp; BASS
+  </text>
+  <text x="500" y="960" 
+        font-family="Arial, sans-serif" 
+        font-size="40" 
+        text-anchor="middle" 
+        fill="rgba(255,255,255,0.7)">
+    radio.rumble.nyc
+  </text>
+</svg>
