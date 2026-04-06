@@ -36,7 +36,7 @@ Many higher-end powered speakers feature streaming support, meaning the speakers
 ### Analog input (Vinyl record player, DJ, Musician)
 Additionally, if you are a DJ or musician, or you want to listen to analog sources, such as a vinyl record player, you'll need an analog input. 
 
-For vinyl you'll need a phono pre-amp. Many newer record players have a built-in phono amplifier so you can plug them directly into regular analog line-in inputs. If your record player doesn't have and your speakers don't have a phono input you'll need an external phono preamp to go between the record player and the speaker.
+For vinyl you'll need a **phono pre-amp**. Many newer record players have a built-in phono amplifier so you can plug them directly into regular analog line-in inputs. If your record player doesn't have and your speakers don't have a phono input you'll need an external phono preamp to go between the record player and the speaker.
 
 **IMPORTANT**: If you're a DJ/musician something very important to watch out is **DSP latency** even from the analog input. Many smaller speakers have built-in Digital Signal Processing to be able to tune the sound for the sub-optimal small drivers in the speakers. The DSP allows the speakers to sound better than they would if you were sending all the frequencies to all the drivers (woofers, tweeters). Often, in lower end speakers, the DSP introduces some latency, so if you're strumming your guitar, you'll hear the audio a fraction of a second late through the speakers. This latency makes the speakers unusable for musicians.
 
@@ -49,25 +49,40 @@ Many smaller powered speakers have a subwoofer output, typically a single RCA ou
 ### $100 - $300
 Edifier, from China, has a huge number of low cost powered speakers. 
 
+Micca, a popular low end Chinese speaker brand makes the PB42X powered speaker. It's fairly basic, with only analog inputs, so you'll need your own DAC if you're wanting to play digital sources. The Micca models with an X at the end feature a built in crossover, meaning the 0.75” tweeter and the 4" woofer only get the frequencies they can handle. This makes these speakers perform better than their low price would indicate.
 
-### $300 - $700
+
+### $300 - $500
 Canadian brand [Kanto](https://kantoaudio.com) make a range of excellent powered speakers, from the small YU and YU2 all the way up to the audiophile quality TUK, and the HDMI ARC soundbar replacement REN model.
 
 Another Canadian brand, [Fluance](https://www.fluance.com/) makes a few highly regarded powered speakers.
 
-### $700 +
-The King of powered speakers is probably KEF. The LS50 Wireless is the product that really put powered speakers on the audiophile map. Using KEF's Uni-Q driver array from their previous passive speakers, but adding built-in Class D amplification, _and_ streaming support.
+Audioengine has been a strong player in the powered speakers game for a long time. Their A5+ model is a great option for an analog-only powered speaker.
+
+
+### $500+
+
+Cambridge Audio, out of London UK, has been around since the 1960s. They've recently entered the powered speaker category with their **L/R Active** speaker series.
+
+ELAC from Germany released their **Debut ConneX DCB41** speaker in 2022. It's a highly featured speaker with HDMI ARC, USB, Analog (switchable between phono and line-in), and has a subwoofer out.
+
+The King of powered speakers, at least in the high-end audiophile world is KEF. The **LS50 Wireless** is the product that really put KEF on the powered speaker map. Using KEF's Uni-Q driver array from their previous passive speakers, but adding built-in Class D amplification, _and_ streaming support.
+
+More recently KEF released the LSX II which features most of the features of the LS50 Wireless, but at half the price.
+
 
 ## Comparison
 
 
-| Model         | HDMI ARC | USB       | Analog Input | Phono Input |
-|---------------|----------|-----------|--------------|-------------|
-| Kanto YU      | -        | -         | ✓            | -           |
-| Kanto YU2     | -        | ✓         | ✓            | -           |
-| Kanto YU4     | -        | ✓         | ✓            | ✓           |
-| Kanto TUK     | -        | -         | ✓            | ✓           |
-| Kanto REN     | ✓        | ✓         | ✓            | -           |
-| Micca PB42X   | -        | -         | ✓            | -           |
-| Edifier M60   | -        | ✓ (USB-C) | ✓            | -           |
-| PSB Alpha AM5 | -        | ✓         | ✓            | ✓           |
+| Model                   | HDMI ARC | USB        | Analog Input | Phono Input | Streaming |
+|-------------------------|----------|------------|--------------|-------------|----|
+| Micca PB42X             | -        | -          | ✓            | -           | -
+| Kanto YU                | -        | -          | ✓            | -           | -
+| Kanto YU2               | -        | ✓          | ✓            | -           | -
+| Kanto YU4               | -        | ✓          | ✓            | ✓           | -
+| Edifier M60             | -        | ✓ USB-C    | ✓            | -           | -
+| PSB Alpha AM5           | -        | ✓ ⚠️ Micro | ✓            | ✓           | -
+| ELAC Debut ConneX DCB41 | ✓        | ✓          | ✓            | ✓           | -
+| Kanto TUK               | -        | ✓          | ✓            | ✓           | -
+| Kanto REN               | ✓        | ✓ USB-C    | ✓            | -           | -
+| KEF LSX II              | ✓        | ✓          | ✓            | -           | ✓
