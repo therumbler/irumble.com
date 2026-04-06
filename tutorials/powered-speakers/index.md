@@ -10,7 +10,7 @@ Class D amplification has come a long way since their initial mainstream accepta
 ## Considerations
 Even in a small apartment, your living area can be large, especially if it's open plan, with the kitchen part of the space. My space is 19ft wide by 13ft deep, meaning small desktop speakers will struggle to fill the space. When I asked an AI LLM about my space it told me this:
 
-    A room between 150 and 300 square feet is considered medium-sized, so speakers with a driver size between 6 and 10 inches are often recommended
+> A room between 150 and 300 square feet is considered medium-sized, so speakers with a driver size between 6 and 10 inches are often recommended
 
 This is much a much bigger speaker than most would consider, especially for a low cost option.
 
