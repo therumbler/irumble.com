@@ -1,0 +1,61 @@
+<html>
+<head>
+    <title>Coachella 2026 - Justin Bieber</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <script src="//vjs.zencdn.net/7.21.1/video.min.js"></script>
+    <link href="//vjs.zencdn.net/7.21.1/video-js.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+   window.SILVERMINE_VIDEOJS_CHROMECAST_CONFIG = {
+      preloadWebComponents: true,
+   };
+</script>
+    <link href="./css/silvermine-videojs-chromecast.css" rel="stylesheet">
+    <script src="./js/silvermine-videojs-chromecast.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0b0a0a;
+            margin: 0;
+            padding: 20px;
+        }
+        #main {
+            margin-right:auto;
+            margin-left:auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #ff5733;
+        }
+        video {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>  
+    <div id="main">
+    <h1>Coachella 2026 - Justin Bieber</h1>
+        <video id="myVideoElement" class="video-js" data-setup='{"fluid": true}' controls>
+            <source src="https://irumble.com/coachella2026/Coachella2026JustinBieber.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <script>
+        var options;
+
+options = {
+   controls: true,
+   techOrder: [ 'chromecast', 'html5' ], // You may have more Tech, such as Flash or HLS
+   plugins: {
+      chromecast: {}
+   }
+};
+
+videojs(document.getElementById('myVideoElement'), options);
+    </script>
+</body>
+</html>
