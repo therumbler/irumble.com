@@ -7,12 +7,14 @@
     <link href="//vjs.zencdn.net/7.21.1/video-js.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
-   window.SILVERMINE_VIDEOJS_CHROMECAST_CONFIG = {
-      preloadWebComponents: true,
-   };
-</script>
+    window.SILVERMINE_VIDEOJS_CHROMECAST_CONFIG = {
+        preloadWebComponents: true,
+    };
+    </script>
     <link href="./css/silvermine-videojs-chromecast.css" rel="stylesheet">
     <script src="./js/silvermine-videojs-chromecast.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -39,7 +41,7 @@
 <body>  
     <div id="main">
     <h1>Coachella 2026 - Justin Bieber</h1>
-        <video id="myVideoElement" class="video-js" data-setup='{"fluid": true}' controls>
+        <video id="myVideoElement" class="video-js" controls>
             <source src="https://irumble.com/coachella2026/Coachella2026JustinBieber.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -49,6 +51,7 @@
 
 options = {
    controls: true,
+   fluid: true,
    techOrder: [ 'chromecast', 'html5' ], // You may have more Tech, such as Flash or HLS
    plugins: {
       chromecast: {}
